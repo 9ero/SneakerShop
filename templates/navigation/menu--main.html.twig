@@ -51,7 +51,7 @@
             item.in_active_trail ? 'active',
             item.below ? 'dropdown-toggle',
             item.url.getOption('attributes').class ? item.url.getOption('attributes').class | join(' '),
-            'text-danger text-decoration-none nav-link-' ~ item.url.toString() | clean_class,
+            'menu_child text-decoration-none nav-link-' ~ item.url.toString() | clean_class,
           ]
         %}
         {% if item.below %}

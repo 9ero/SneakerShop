@@ -21,11 +21,23 @@
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
+    height: fit-content;
+    margin-bottom: 7vh;
+    
 }
 .views-row{
     h3{
         color: aliceblue;
         background-color: rgba(0, 0, 0, 0.7);
         font-family: 'Squada One', regular;
+    }
+}
+
+.menu_child{
+    color: rgb(44, 44, 44);
+    
+    a{
+        color: rgb(44, 44, 44);
+        
     }
 }
